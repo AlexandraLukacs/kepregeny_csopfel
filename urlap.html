@@ -30,8 +30,8 @@
                     <fieldset>
                         <legend>Karakterről</legend>
                     <div>
-                        <label for="text">Személyiség:</label><br>
-                        <input type="checkbox" id="checkbox1" name="szemelyi" value="bator" checked>
+                        <label for="text">Szerinted milyen volt a személyisége:</label><br>
+                        <input type="checkbox" id="checkbox1" name="szemelyi" value="bator">
                         <label for="checkbox1">Bátor</label><br>
                         <input type="checkbox" id="checkbox2" name="szemelyi" value="lelkes">
                         <label for="checkbox2">Lelkes</label><br>
@@ -39,6 +39,22 @@
                         <label for="checkbox3">Elkötelezett</label><br>
                         <input type="checkbox" id="checkbox4" name="szemelyi" value="eroteljes">
                         <label for="checkbox4">Erőteljes</label><br>
+                        <input type="checkbox" id="checkbox5" name="szemelyi" value="szomoru">
+                        <label for="checkbox5">Szomorú</label><br>
+                        <input type="checkbox" id="checkbox6" name="szemelyi" value="vicces">
+                        <label for="checkbox6">Vicces</label><br>
+                        <input type="checkbox" id="checkbox7" name="szemelyi" value="alkalmazkodo">
+                        <label for="checkbox7">Alkalmazkodó</label>
+                    </div>
+                    <div>
+                        <label for="text">Hogy tetszett a személyisége:</label>
+                        <select class="form-select">
+                            <option>Válasszon!</option>
+                            <option>Nem vagyok megelégedve</option>
+                            <option>Átlagos</option>
+                            <option>Meg vagyok elégedve</option>
+                            <option>Teljesen meg vagyok elégedve</option>
+                        </select>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -46,20 +62,20 @@
                     <div>
                         <label for="text">Győzelmek:</label><br>
                         <input type="radio" id="pontjo" name="gyozelem" value="pontjo" checked>
-                        <label for="javascript">Pont jó a gyözelem arány</label>
+                        <label for="pontjo">Pont jó a gyözelem arány</label><br>
                         <input type="radio" id="sok" name="gyozelem" value="sok">
-                        <label for="html">Sok a győzelem?</label><br>
+                        <label for="sok">Sok a győzelem</label><br>
                         <input type="radio" id="mas" name="gyozelem" value="mas">
-                        <label for="css">Győzhetett volna közbe más is?</label><br>
+                        <label for="mas">Győzhetett volna közbe más is?</label><br>
                     </div>
                     <div>
-                        <label for="text"></label><br>
-                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                        <label for="vehicle1"> I have a bike</label><br>
-                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                        <label for="vehicle2"> I have a car</label><br>
-                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                        <label for="vehicle3"> I have a boat</label>
+                        <label for="text">Mennyire tetszett:</label><br>
+                        <input type="radio" id="nagyon" name="tetszett" value="nagyon" checked>
+                        <label for="nagyon">Nagyon tetszett, még egyszer el fogom olvasni</label><br>
+                        <input type="radio" id="tetszett" name="tetszett" value="tetszett">
+                        <label for="tetszett">Tetszett, de egyszer elég volt elolvasni</label><br>
+                        <input type="radio" id="nem" name="tetszett" value="nem">
+                        <label for="nem">Nem tetszett</label>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -69,7 +85,9 @@
                         <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
                     </div>
                 </fieldset>
-                <button class="button">Küldés</button>
+                <fieldset>
+                    <button class="button">Küldés</button>
+                </fieldset>
             </form>
         </article>
         <footer>Kovács István Gábor, Lukács Alexandra</footer>
