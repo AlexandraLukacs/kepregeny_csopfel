@@ -46,63 +46,73 @@
                         <input type="checkbox" id="checkbox7" name="szemelyi" value="alkalmazkodo">
                         <label for="checkbox7">Alkalmazkodó</label>
                     </div>
+
                     <div>
-                        <label for="text">Hogy tetszett a személyisége:</label><br>
-                        <select class="select">
-                            <option>Kérem válasszon!</option>
-                            <option>Nem vagyok megelégedve</option>
-                            <option>Átlagos</option>
-                            <option>Meg vagyok elégedve</option>
-                            <option>Teljesen meg vagyok elégedve</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="text">Neme:</label><br>
-                        <input type="radio" id="fiu" name="neme" value="fiu" checked>
-                        <label for="sok">Jó, hogy fiú karakter</label><br>
-                        <input type="radio" id="lany" name="neme" value="lany">
-                        <label for="sok">Lehetett volna lány is</label>
+                        <div>
+                            <label for="text">Hogy tetszett a személyisége:</label><br>
+                            <select class="select">
+                                <option>Kérem válasszon!</option>
+                                <option>Nem vagyok megelégedve</option>
+                                <option>Átlagos</option>
+                                <option>Meg vagyok elégedve</option>
+                                <option>Teljesen meg vagyok elégedve</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="text">Neme:</label><br>
+                            <input type="radio" id="fiu" name="neme" value="fiu" checked>
+                            <label for="sok">Jó, hogy fiú karakter</label><br>
+                            <input type="radio" id="lany" name="neme" value="lany">
+                            <label for="sok">Lehetett volna lány is</label>
+                        </div>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Történetről</legend>
                     <div>
-                        <label for="text">Győzelmek:</label><br>
-                        <input type="radio" id="pontjo" name="gyozelem" value="pontjo" checked>
-                        <label for="pontjo">Pont jó a gyözelem arány</label><br>
-                        <input type="radio" id="sok" name="gyozelem" value="sok">
-                        <label for="sok">Sok a győzelem</label><br>
-                        <input type="radio" id="mas" name="gyozelem" value="mas">
-                        <label for="mas">Győzhetett volna közbe más is?</label>
-                    </div>
-                    <div>
-                        <label for="text">Mennyire tetszett:</label><br>
-                        <input type="radio" id="nagyon" name="tetszett" value="nagyon" checked>
-                        <label for="nagyon">Nagyon tetszett, még egyszer el fogom olvasni</label><br>
-                        <input type="radio" id="tetszett" name="tetszett" value="tetszett">
-                        <label for="tetszett">Tetszett, de egyszer elég volt elolvasni</label><br>
-                        <input type="radio" id="nem" name="tetszett" value="nem">
-                        <label for="nem">Nem tetszett</label>
-                    </div>
-                    <div>
-                        <label for="text">Történet hossza:</label><br>
-                        <select class="select">
-                            <option>Kérem válasszon!</option>
-                            <option>Túl hosszú volt</option>
-                            <option>Lehetett volna rövidebb</option>
-                            <option>Egész jó volt a hossza</option>
-                            <option>Teljesen jó volt így</option>
-                            <option>Lehetett volna hosszabb</option>
-                            <option>Túl rövid volt</option>
-                        </select>
+                        <div>
+                            <label for="text">Győzelmek:</label><br>
+                            <input type="radio" id="pontjo" name="gyozelem" value="pontjo" checked>
+                            <label for="pontjo">Pont jó a gyözelem arány</label><br>
+                            <input type="radio" id="sok" name="gyozelem" value="sok">
+                            <label for="sok">Sok a győzelem</label><br>
+                            <input type="radio" id="mas" name="gyozelem" value="mas">
+                            <label for="mas">Győzhetett volna közbe más is?</label>
+                        </div>
+                        
+                        <div>
+                            <label for="text">Történet hossza:</label><br>
+                            <select class="select">
+                                <option>Kérem válasszon!</option>
+                                <option>Túl hosszú volt</option>
+                                <option>Lehetett volna rövidebb</option>
+                                <option>Egész jó volt a hossza</option>
+                                <option>Teljesen jó volt így</option>
+                                <option>Lehetett volna hosszabb</option>
+                                <option>Túl rövid volt</option>
+                            </select>
+                        </div>
                     </div>
 
                     <div>
-                        <label for="text">Más személyek:</label><br>
-                        <input type="radio" id="eleg" name="karakter" value="eleg" checked>
-                        <label for="karakt">Jó, hogy nem volt más karakter rajta kívül</label><br>
-                        <input type="radio" id="mas" name="karakter" value="mas">
-                        <label for="karakt">Lehetett volna ás karakter is rajta kívül</label>
+                        <div>
+                            <label for="text">Más személyek:</label><br>
+                            <input type="radio" id="eleg" name="karakter" value="eleg" checked>
+                            <label for="karakt">Jó, hogy nem volt más karakter rajta kívül</label><br>
+                            <input type="radio" id="mas" name="karakter" value="mas">
+                            <label for="karakt">Lehetett volna ás karakter is rajta kívül</label>
+                        </div>
+    
+                        <div>
+                            <label for="text">Mennyire tetszett:</label><br>
+                            <input type="radio" id="nagyon" name="tetszett" value="nagyon" checked>
+                            <label for="nagyon">Nagyon tetszett, még egyszer el fogom olvasni</label><br>
+                            <input type="radio" id="tetszett" name="tetszett" value="tetszett">
+                            <label for="tetszett">Tetszett, de egyszer elég volt elolvasni</label><br>
+                            <input type="radio" id="nem" name="tetszett" value="nem">
+                            <label for="nem">Nem tetszett</label>
+                        </div>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -111,6 +121,7 @@
                         <label for="text">Egyéb vélemény a karakterről:</label><br>
                         <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
                     </div>
+                    
                     <div>
                         <label for="text">Egyéb vélemény a történetről:</label><br>
                         <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
