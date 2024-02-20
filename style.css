@@ -8,6 +8,11 @@ body {
     background-image: url("kepek/kockas_zaszlo.jpg");
     width: 80%;
     margin: auto;
+    color: white;
+}
+
+header {
+    color: white;
 }
 
 nav ul {
@@ -38,4 +43,8 @@ form {
 
 footer {
     text-align: center;
+}
+
+label {
+    color: white;
 }
