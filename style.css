@@ -4,8 +4,14 @@
     margin: 0;
 }
 
+main {
+    
+}
+
 body {
-    background-image: url();
+    width: 80%;
+    margin: auto;
+    background-image: url("");
 }
 
 nav ul {
@@ -16,5 +22,10 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
+    color: aqua;
+}
+
+nav ul li a:hover {
+    color: palevioletred;
 }
 
