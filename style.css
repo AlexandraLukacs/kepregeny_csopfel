@@ -5,9 +5,9 @@
 }
 
 body {
+    background-image: url("kepek/kockas_zaszlo.jpg");
     width: 80%;
     margin: auto;
-    background-image: url("");
 }
 
 nav ul {
