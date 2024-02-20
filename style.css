@@ -27,12 +27,15 @@ legend {
     border: 1px solid black;
     background-color: rgb(20, 12, 29);
     color: white;
-    padding: 5px;
+    padding: 10px;
+    flex: 0 0 100%;
 }
 
 fieldset{
     background-color: rgb(18, 20, 35);
     border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 form div {
@@ -50,4 +53,8 @@ footer {
 
 label {
     color: white;
+}
+
+button {
+    margin: 10px;
 }
