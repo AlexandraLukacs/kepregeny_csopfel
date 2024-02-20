@@ -14,7 +14,9 @@ body {
 header {
     color: white;
 }
-
+header h1{
+    color: red;
+}
 nav ul {
     display: flex;
     list-style-type: none;
@@ -43,6 +45,7 @@ form {
 
 footer {
     text-align: center;
+    color: darkgreen;
 }
 
 label {
