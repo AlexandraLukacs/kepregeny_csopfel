@@ -58,3 +58,27 @@ label {
 button {
     margin: 10px;
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    border-radius: 1em;
+}
+.box img{
+    width: 400px;
+    border-radius:1em;
+}
+.box{
+    align-items: center;
+    width: 450px;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
